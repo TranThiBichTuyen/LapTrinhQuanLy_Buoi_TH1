@@ -35,7 +35,7 @@ namespace QuanLyBanHang.Data
         public DbSet<LoaiSanPham> LoaiSanPham { get; set; }
         public DbSet<HangSanXuat> HangSanXuat { get; set; }
         public DbSet<SanPham> SanPham { get; set; }
-        public DbSet<NhanVien> NhanViens { get; set; }
+        public DbSet<NhanVien> NhanVien { get; set; }
         public DbSet<KhachHang> KhachHang { get; set; }
         public DbSet<HoaDon> HoaDon { get; set; }
         public DbSet<HoaDon_ChiTiet> HoaDon_ChiTiet { get; set; }
